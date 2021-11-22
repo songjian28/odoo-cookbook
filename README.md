@@ -1,7 +1,5 @@
 # Odoo 14开发者指南(第四版)
 
-> Odoo 12开发者指南请点击[这里](https://github.com/iTranslateX/odoo-cookbook/tree/v12)
-
 Odoo 14开发者指南（Cookbook）第四版，是一套提供了各类开发场景的完整资源，帮助读者通过Odoo框架构建复杂商业应用。不论你是希望自定义已有模块、新建模块，还是自定义网站或后台web客户端(JS)，本书都讲解到了Odoo开发的方方面面。
 
 在最新的发行版中，强大的Odoo框架为快速应用开发提供了广泛的功能。这本新的Odoo开发指南有助于读者探索Odoo 14中的新功能并学习如何从零开始使用这些功能开发Odoo应用。读者还将学习到Odoo 14中新的网站概念并一睹Odoo的新web客户端框架OWL(Odoo Web Library的简称)。
@@ -50,18 +48,18 @@ Odoo 14开发者指南（Cookbook）第四版，是一套提供了各类开发�
 
 [第十六章 Odoo Web Library (OWL)](16.md)，介绍名为OWL的新客户端框架。涵盖了OWL组件的生命周期。还包含从零创建字段微件的小节。
 
-[第十七章 Odoo的应用内购买](17.md)：涵盖有关Odoo最新的应用内购买（IAP）概念的所有内容。本章中会学习到如何为IAP创建客户端和服务模块。读者还将学习到如何创建IAP账户并从终端用户提取IAP款项。
+[第十七章 Odoo的应用内购买](di-shi-qi-zhang-odoo-de-ying-yong-nei-gou-mai.md)：涵盖有关Odoo最新的应用内购买（IAP）概念的所有内容。本章中会学习到如何为IAP创建客户端和服务模块。读者还将学习到如何创建IAP账户并从终端用户提取IAP款项。
 
-[第十八章 自动化测试用例](18.md)：包含如何编写和执行自动化测试用例。这包括服务端、客户端测试用例。本章还包含导览测试用例以及对失败的测试用例设置headless Chrome来获取视频。
+[第十八章 自动化测试用例](di-shi-ba-zhang-zi-dong-hua-ce-shi-yong-li.md)：包含如何编写和执行自动化测试用例。这包括服务端、客户端测试用例。本章还包含导览测试用例以及对失败的测试用例设置headless Chrome来获取视频。
 
-[第十九章 使用Odoo.sh管理、部署和测试](19.md)：讲解如何通过PaaS平台Odoo.sh来管理、部署和测试Odoo实例。还涉及到如何管理各类实例，如生产、预发布和部署阶段。本章还包含针对Odoo.sh的各种配置选项。
+[第十九章 使用Odoo.sh管理、部署和测试](di-shi-jiu-zhang-shi-yong-odoo.sh-guan-li-bu-shu-he-ce-shi.md)：讲解如何通过PaaS平台Odoo.sh来管理、部署和测试Odoo实例。还涉及到如何管理各类实例，如生产、预发布和部署阶段。本章还包含针对Odoo.sh的各种配置选项。
 
 [第二十章 Odoo中的远程过程调用（RPC）](20.md)：涵盖从外部应用连接Odoo实例的不同方式。本章教你如何通过XML-RPC、JSON-RPC和odoorpc库连接Odoo 以及从Odoo实例访问数据。
 
 [第二十一章 性能优化](21.md)：讲解用于获取Odoo中性能提升的不同概念和模式。本章包含预提取、ORM缓存和代码性能测试来监测性能问题的概念。
 
-[第二十二章 POS（销售点）](22.md)：涵盖 POS 应用的自定义。包含对用户界面、添加新动作按钮、修改业务流和扩展客户菜单的自定义。
+[第二十二章 POS（销售点）](di-er-shi-er-zhang-pos-xiao-shou-dian.md)：涵盖 POS 应用的自定义。包含对用户界面、添加新动作按钮、修改业务流和扩展客户菜单的自定义。
 
 [第二十三章 在Odoo中管理Email](23.md)：讲解如何在Odoo中管理email和chatter工具。通过配置邮件服务器开始，然后讲解Odoo框架的邮件API。本章还涵盖Jinja2和QWeb邮件模板、表单视图、字段日志和活动的聊天工具。
 
-[第二十四章 管理IoT盒子](24.md)：给出了最新的IoT盒子硬件的重点讲解。本章涵盖如何配置、访问和调试IoT盒子。还包含一个集成IoT盒子到你的自定义插件的示范。
+[第二十四章 管理IoT盒子](di-er-shi-si-zhang-guan-li-iot-he-zi.md)：给出了最新的IoT盒子硬件的重点讲解。本章涵盖如何配置、访问和调试IoT盒子。还包含一个集成IoT盒子到你的自定义插件的示范。
